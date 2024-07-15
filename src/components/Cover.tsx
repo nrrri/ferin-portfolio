@@ -1,7 +1,7 @@
 import portrait from '../assets/ferin.jpeg'
 function Cover() {
     return <div className="items-center text-grey400 my-36">
-        <div className="flex justify-around">
+        <div className="flex justify-center">
             {/* // my info */}
             <section className="w-128">
                 <div className="text-left text-9xl font-semibold font-alata">
@@ -22,7 +22,7 @@ function Cover() {
                 </div>
             </section>
             {/* // picture */}
-            <section className="justify-center my-auto">
+            <section className="justify-center my-auto p-16">
                 <img id='portrait-shadow' className='w-80' src={portrait} alt="" />
             </section>
         </div>

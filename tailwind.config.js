@@ -28,6 +28,9 @@ export default {
         grey200: '#E1E1E1',
         grey100: '#F9F9F9'
       },
+      maxWidth: {
+        '4k': '240rem',
+      }
     },
   },
   plugins: [],

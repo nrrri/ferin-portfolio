@@ -9,11 +9,11 @@ import WebDevProject from './components/WebDevProject'
 function App() {
 
   return (
-    <div>
-    {/* <NavBar /> */}
+    <div className='bg-bgday100 text-grey400 max-w-4k'>
+    <NavBar />
 
     <Cover />
-    {/* <Banner /> */}
+    <Banner />
     {/* <WebDevProject /> */}
     {/* <Banner /> */}
     {/* <ArchProject /> */}
