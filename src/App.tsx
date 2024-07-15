@@ -9,7 +9,7 @@ import WebDevProject from './components/WebDevProject'
 function App() {
 
   return (
-    <div className='font-alata'>
+    <div>
     {/* <NavBar /> */}
 
     <Cover />

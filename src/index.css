@@ -1,10 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Antonio:wght@100..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 .font-alata {
     font-family: "Alata", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+
+  .font-antonio {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
   
+  * {
+    background-color: #F9F6F2;
+  }
+
+  #shadow {
+    background-color: #e8e3dc;
+    color: transparent;
+    text-shadow: 0px 4px 6px rgba(255,255,255,1);
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+  }
+
+  #drop-shadow {
+    box-shadow: -5px -5px 0.4rem white, 4px 4px 0.4rem rgb(0 0 0 / 20%)
+  }
+
+  #portrait-shadow {
+    box-shadow: 20px 20px rgb(71 123 255 / 100%);
+  }
