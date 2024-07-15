@@ -11,7 +11,8 @@ export default {
       },
       fontFamily: {
         alata: ['Alata', "sans-serif"],
-        antonio: ['Antonio', "sans-serif"]
+        antonio: ['Antonio', "sans-serif"],
+        ntr: ['NTR', "sans-serif"]
       },
       colors: {
         primary300: '#FF6A49',

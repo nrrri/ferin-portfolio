@@ -1,4 +1,5 @@
 import portrait from '../assets/ferin.jpeg'
+
 function Cover() {
     return <div className="items-center text-grey400 my-36">
         <div className="flex justify-center">
