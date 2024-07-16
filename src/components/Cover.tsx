@@ -24,7 +24,7 @@ function Cover() {
             </section>
             {/* // picture */}
             <section className="justify-center my-auto p-16">
-                <img id='portrait-shadow' className='w-80' src={portrait} alt="" />
+                <img id='portrait-shadow' className='max-w-80 min-w-80' src={portrait} alt="" />
             </section>
         </div>
 

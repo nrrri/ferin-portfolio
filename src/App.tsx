@@ -14,7 +14,7 @@ function App() {
 
     <Cover />
     <Banner />
-    {/* <WebDevProject /> */}
+    <WebDevProject />
     {/* <Banner /> */}
     {/* <ArchProject /> */}
     {/* <Footer /> */}

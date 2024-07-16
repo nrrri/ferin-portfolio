@@ -20,6 +20,13 @@
     font-style: normal;
   }
 
+  .font-antonio-extend {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
   .ntr-regular {
     font-family: "NTR", sans-serif;
     font-weight: 400;
@@ -49,6 +56,16 @@
   }
 
   #banner {
-    position:absolute;
+   position:absolute;
    bottom: 1px;
+  }
+
+  #input {
+    border: transparent;
+  }
+
+  #input :focus {
+    border: 0;
+    border: transparent;
+    
   }

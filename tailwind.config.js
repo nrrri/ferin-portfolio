@@ -31,6 +31,9 @@ export default {
       },
       maxWidth: {
         '4k': '240rem',
+      },
+      margin: {
+        '2px': '2px'
       }
     },
   },
