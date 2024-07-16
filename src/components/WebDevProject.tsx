@@ -1,4 +1,4 @@
-
+import Skills from "./Skills"
 
 function WebDevProject() {
     return (
@@ -25,23 +25,25 @@ function WebDevProject() {
             </div>
 
             {/* skills */}
-            <div className="uppercase m-8">
-                <p className="m-2">Skill sets:</p>
-                <div id="drop-shadow" className="bg-bgday200 p-4 rounded-2xl min-w-lg max-w-2xl">
-                    <div className="grid grid-cols-8 gap-6 justify-items-center items-center">
-                        <p>1</p>
-                        <p>2</p>
-                        <p>3</p>
-                        <p>4</p>
-                        <p>5</p>
-                        <p>5</p>
-                        <p>5</p>
-                        <p>5</p>
-                        <p>5</p>
+            {/* <div className="flex flex-col items-center justify-center">
+                <div className="uppercase m-8">
+                    <p className="m-2">Skill sets:</p>
+                    <div id="drop-shadow" className="bg-bgday200 p-4 rounded-2xl">
+                        <div className="grid grid-cols-8 gap-6 justify-items-center items-center w-128 min-w-96 max-w-128">
+                            <p>1</p>
+                            <p>2</p>
+                            <p>3</p>
+                            <p>4</p>
+                            <p>5</p>
+                            <p>5</p>
+                            <p>5</p>
+                            <p>5</p>
+                            <p>5</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            </div> */}
+            <Skills />
 
         </div>
     )

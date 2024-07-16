@@ -1,4 +1,4 @@
-import Skill from './Skills'
+import Skill from '../Skills'
 
 function ProjectCard() {
     return (<div>
