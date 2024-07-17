@@ -15,9 +15,9 @@ function App() {
     <Cover />
     <Banner />
     <WebDevProject />
-    {/* <Banner /> */}
-    {/* <ArchProject /> */}
-    {/* <Footer /> */}
+    
+    <ArchProject />
+    <Footer />
       
     </div>
   )

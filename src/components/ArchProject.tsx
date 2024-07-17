@@ -1,8 +1,6 @@
 function ArchProject () {
     return <>
-    <h1>
-        Architecture Project
-    </h1>
+    <div></div>
     </>
 }
 

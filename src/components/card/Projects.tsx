@@ -4,6 +4,7 @@ import WebIcon from '../../assets/web-svgrepo-com.svg'
 
 // project pictures
 import project1 from '../../assets/project-pictures/mindHome.png'
+import project2 from '../../assets/project-pictures/portfolio.png'
 
 export interface Project {
     id: number;
@@ -26,7 +27,7 @@ export const projects: Project[] = [
     },
     {
         id: 2,
-        picture: '/images/project2.png',
+        picture: project2,
         title: 'Project 2',
         icons: [
             { name: 'GitHub', logo: FigmaIcon , link: 'https://github.com/project2' },
@@ -36,11 +37,67 @@ export const projects: Project[] = [
     },
     {
         id: 3,
-        picture: '/images/project2.png',
+        picture: project1,
         title: 'Project 3',
+        icons: [
+            { name: 'GitHub', logo: FigmaIcon , link: 'https://github.com/project2' },
+            { name: 'GitHub', logo: GithubIcon , link: 'https://github.com/nrrri/react-threejs-MindHome' },
+            { name: 'Website', logo:  WebIcon , link: 'https://mindhome-threejs.netlify.app/' }
+        ],
+        description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
+    },
+    {
+        id: 4,
+        picture: project1,
+        title: 'Project 4',
         icons: [
             { name: 'GitHub', logo: FigmaIcon , link: 'https://github.com/project2' },
         ],
         description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
     },
+    {
+        id: 5,
+        picture: project1,
+        title: 'Project 5',
+        icons: [
+            { name: 'GitHub', logo: FigmaIcon , link: 'https://github.com/project2' },
+        ],
+        description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
+    },
+    {
+        id: 6,
+        picture: project1,
+        title: 'Project 6',
+        icons: [
+            { name: 'GitHub', logo: FigmaIcon , link: 'https://github.com/project2' },
+        ],
+        description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
+    },
+    {
+        id: 7,
+        picture: project1,
+        title: 'Project 7',
+        icons: [
+            { name: 'GitHub', logo: FigmaIcon , link: 'https://github.com/project2' },
+        ],
+        description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
+    },
+    {
+        id: 8,
+        picture: project1,
+        title: 'Project 8',
+        icons: [
+            { name: 'GitHub', logo: FigmaIcon , link: 'https://github.com/project2' },
+        ],
+        description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
+    },
+    // {
+    //     id: 9,
+    //     picture: '/images/project2.png',
+    //     title: 'Project 9',
+    //     icons: [
+    //         { name: 'GitHub', logo: FigmaIcon , link: 'https://github.com/project2' },
+    //     ],
+    //     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
+    // },
 ];

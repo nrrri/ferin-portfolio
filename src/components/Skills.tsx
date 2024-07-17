@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
       const imageContext = import.meta.glob('../assets/icon-skills/*.{png,jpg,jpeg,svg}');
       const imagePaths = await Promise.all(
         Object.keys(imageContext).map(async (key) => {
-          const module = await imageContext[key]();
+          const module: any = await imageContext[key]();
           return module.default;
         })
       );
