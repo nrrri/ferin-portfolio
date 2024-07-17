@@ -7,7 +7,7 @@ interface ProjectCardProps {
 
 const Card: React.FC<ProjectCardProps> = ({ project }) => {
     return (
-        <div className="max-w-[350px] max-h-[500px] bg-bgday200 overflow-hidden shadow-lg">
+        <div className="min-w-[350px] max-w-[350px] max-h-[500px] bg-bgday200 overflow-hidden shadow-lg">
             <div className='flex justify-center'>
                 <img className="object-cover h-[250px]" src={project.picture} alt={project.title} />
             </div>
