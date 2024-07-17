@@ -8,8 +8,9 @@ interface ProjectCardProps {
 const Card: React.FC<ProjectCardProps> = ({ project }) => {
     return (
         <div className="max-w-[350px] max-h-[500px] bg-bgday200 overflow-hidden shadow-lg">
-            
-            <img className="object-cover h-[250px]" src={project.picture} alt={project.title} />
+            <div className='flex justify-center'>
+                <img className="object-cover h-[250px]" src={project.picture} alt={project.title} />
+            </div>
             <div className="px-6 py-4">
                 <div className='flex justify-between items-center pb-2'>
                     <div className="text-xl uppercase text-primary200 transform transition duration-500 hover:text-secondary200">{project.title}</div>

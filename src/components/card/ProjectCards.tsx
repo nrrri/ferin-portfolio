@@ -4,7 +4,7 @@ import Card from './Card'; // Import the ProjectCard component
 
 const ProjectCards: React.FC = () => {
   return (
-    <div className=" grid grid-cols-4 justify-center gap-4 mb-16">
+    <div className=" grid grid-cols-3 justify-center gap-4 mb-16">
       {projects.map((project: Project) => (
         <Card key={project.id} project={project} />
       ))}
