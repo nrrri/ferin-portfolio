@@ -12,7 +12,7 @@ const Card: React.FC<ProjectCardProps> = ({ project }) => {
             <img className="object-cover h-[250px]" src={project.picture} alt={project.title} />
             <div className="px-6 py-4">
                 <div className='flex justify-between items-center pb-2'>
-                    <div className="text-xl uppercase text-primary200">{project.title}</div>
+                    <div className="text-xl uppercase text-primary200 transform transition duration-500 hover:text-secondary200">{project.title}</div>
                     <div className="flex justify-between">
                         {project.icons.map((icon, index) => (
                             <a key={index} href={icon.link} target="_blank" rel="noopener noreferrer" className="mr-2">

@@ -32,11 +32,6 @@
     font-weight: 400;
     font-style: normal;
   }
-  
-  
-  /* * {
-    background-color: #F9F6F2;
-  } */
 
   #shadow {
     background-color: #e8e3dc;
@@ -59,6 +54,11 @@
    position:absolute;
    bottom: 1px;
   }
+
+  .banner {
+    position:absolute;
+    bottom: 1px;
+   }
 
   #input {
     border: transparent;

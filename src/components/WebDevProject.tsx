@@ -10,7 +10,7 @@ function WebDevProject() {
                     <p className="m-2px text-primary100">web development projects</p>
                 </div>
                 {/* TBD to grouping project */}
-                <div className="mb-16 flex space-x-4 uppercase text-xl text-grey300 text-light">
+                <div className="mb-4 flex space-x-4 uppercase text-xl text-grey300 text-light">
                     <p>
                         web Developer
                     </p>
@@ -24,10 +24,10 @@ function WebDevProject() {
                     </p>
                 </div>
             </div>
+            <Skills />
 
             <ProjectCard />
 
-            <Skills />
 
         </div>
     )
