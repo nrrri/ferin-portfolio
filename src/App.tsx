@@ -1,4 +1,3 @@
-import './App.css'
 import ArchProject from './components/ArchProject'
 import Banner from './components/Banner'
 import Cover from './components/Cover'
@@ -9,16 +8,18 @@ import WebDevProject from './components/WebDevProject'
 function App() {
 
   return (
-    <div className='bg-bgday100 text-grey400 max-w-4k'>
-    <NavBar />
+    <div className='flex flex-col bg-bgday100 text-grey400 h-screen'>
+    {/* <div className='bg-bgday100 text-grey400 w-screen'> */}
+        <NavBar />
 
-    <Cover />
-    <Banner />
-    <WebDevProject />
-    
-    <ArchProject />
-    <Footer />
-      
+        <Cover />
+        {/* <Banner /> */}
+        {/* <WebDevProject /> */}
+
+        {/* <ArchProject /> */}
+        {/* <Footer /> */}
+
+    {/* </div> */}
     </div>
   )
 }
