@@ -30,8 +30,8 @@ function Cover() {
 
                 {/* job title */}
                 <div className="flex w-auto md:flex-row flex-col md:justify-between justify-center font-alata text-xl items-center gap-6">
-                    {careerTitle.map((title) => {
-                        return <div className={titleBubble}>{title}</div>
+                    {careerTitle.map((title,idx) => {
+                        return <div key={idx} className={titleBubble}>{title}</div>
                     })}
                 </div>
             </section>

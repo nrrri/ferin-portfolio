@@ -1,12 +1,12 @@
 import Skills from "./Skills"
-import ProjectCard from "./card/ProjectCards"
+import ProjectCard from "./WebDevProject/card/ProjectCards"
 
 function WebDevProject() {
     const jobSkill = ['web Developer', 'mobile application Developer', 'ux/ui designer']
     const skillTitle = 'web development projects'
 
     const checkScreenCondition = (idx: number) => {
-        return idx !== jobSkill.length - 1 && window.innerWidth >= 640
+        return idx !== jobSkill.length - 1 && window.innerWidth >= 768
     }
 
     const skillHeader = () => {
@@ -20,10 +20,10 @@ function WebDevProject() {
                 <div className="mb-4 flex md:flex-row items-center flex-col uppercase text-xl text-grey300 text-light gap-3">
                     {jobSkill.map((job, idx) => {
                         return (
-                            <>
-                                <p>{job}</p>
+                            <div key={idx}>
+                                <p >{job}</p>
                                 {checkScreenCondition(idx) && <p>|</p>}
-                            </>
+                            </div>
                         )
                     })}
                 </div>
@@ -33,9 +33,10 @@ function WebDevProject() {
     return (
         <div className="font-alata flex flex-col items-center justify-center">
             {skillHeader()}
-            {/* <Skills /> */}
 
-            {/* <ProjectCard /> */}
+            <Skills />
+
+            <ProjectCard />
 
 
         </div >
