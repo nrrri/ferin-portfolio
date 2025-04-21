@@ -7,8 +7,8 @@ function Cover() {
         lname: 'Chowarun'
     }
 
-    return <div className="items-center text-grey400 mb-24 xl:my-36">
-        <div className="flex flex-col-reverse xl:flex-row items-center justify-center xl:p-auto py-12 gap-16 xl:gap-32">
+    return <div className="items-center text-grey400 mb-16 sm:mb-24 xl:my-36">
+        <div className="flex flex-col-reverse xl:flex-row items-center justify-center xl:p-auto pt-12 gap-16 xl:gap-32">
             {/* my info */}
             <section className="flex flex-col justify-center max-w-[720px] gap-8">
                 {/* my name */}

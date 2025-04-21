@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const Banner = ({ text }: { text: string }) => {
     const [repeatCount, setRepeatCount] = useState(1);
@@ -13,8 +13,8 @@ const Banner = ({ text }: { text: string }) => {
     }, [text]);
 
     return (
-        <div ref={containerRef} className="flex items-center justify-center relative h-[110px] bg-gradient-to-r from-secondary200 to-secondary100 ">
-            <span ref={textRef} className="flex text-6xl lg:text-9xl text-bgday100 leading-none uppercase font-antonio banner space-x-24 text-nowrap" >
+        <div ref={containerRef} className="flex items-center justify-center relative h-[52px] md:h-[110px] bg-gradient-to-r from-secondary200 to-secondary100 ">
+            <span ref={textRef} className="flex text-6xl md:text-9xl text-bgday100 leading-none uppercase font-antonio banner space-x-24 text-nowrap" >
                 {text.repeat(repeatCount)}
             </span>
         </div >
