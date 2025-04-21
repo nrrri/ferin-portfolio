@@ -1,24 +1,18 @@
-import './App.css'
-import ArchProject from './components/ArchProject'
 import Banner from './components/Banner'
 import Cover from './components/Cover'
-import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import WebDevProject from './components/WebDevProject'
 
 function App() {
 
   return (
-    <div className='bg-bgday100 text-grey400 max-w-4k'>
-    <NavBar />
+    <div className='flex flex-col bg-bgday100 text-grey400 h-full pb-12'>
+        <NavBar />
 
-    <Cover />
-    <Banner />
-    <WebDevProject />
-    
-    <ArchProject />
-    <Footer />
-      
+        <Cover />
+        <Banner text='My Project '/>
+        <WebDevProject />
+
     </div>
   )
 }

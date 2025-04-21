@@ -1,17 +1,18 @@
-import FigmaIcon from '../../assets/figma-svgrepo-com.svg'
-import GithubIcon from '../../assets/github-svgrepo-com.svg'
-import WebIcon from '../../assets/web-svgrepo-com.svg'
+// import FigmaIcon from '../assets/figma-svgrepo-com.svg'
+import FigmaIcon from '../../../assets/figma-svgrepo-com.svg'
+import GithubIcon from '../../../assets/github-svgrepo-com.svg'
+import WebIcon from '../../../assets/web-svgrepo-com.svg'
 
 // project pictures
-import project1 from '../../assets/project-pictures/mindHome.png'
-import project2 from '../../assets/project-pictures/portfolio.png'
-import project3 from '../../assets/project-pictures/alexandar-todov-2ZIByCEjRWU-unsplash.jpg'
-import project4 from '../../assets/project-pictures/liveMat.png'
-import project5 from '../../assets/project-pictures/shoppingApp.png'
-import project6 from '../../assets/project-pictures/NoteBlog.png'
-import project7 from '../../assets/project-pictures/weatherApp.png'
-import project8 from '../../assets/project-pictures/guessTheFlag.jpeg'
-import project9 from '../../assets/project-pictures/pomoList.png'
+import project1 from '../../../assets/project-pictures/mindHome.png'
+import project2 from '../../../assets/project-pictures/portfolio.png'
+import project3 from '../../../assets/project-pictures/alexandar-todov-2ZIByCEjRWU-unsplash.jpg'
+import project4 from '../../../assets/project-pictures/liveMat.png'
+import project5 from '../../../assets/project-pictures/shoppingApp.png'
+import project6 from '../../../assets/project-pictures/NoteBlog.png'
+import project7 from '../../../assets/project-pictures/weatherApp.png'
+import project8 from '../../../assets/project-pictures/guessTheFlag.jpeg'
+import project9 from '../../../assets/project-pictures/pomoList.png'
 
 export interface Project {
     id: number;
