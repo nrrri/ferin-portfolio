@@ -2,7 +2,7 @@ import portrait from '../assets/ferin.jpeg'
 
 function Cover() {
     return <div className="items-center text-grey400 mb-24 xl:my-36">
-        <div className="flex flex-col-reverse xl:flex-row items-center justify-center xl:p-36 py-12 gap-16 xl:gap-32">
+        <div className="flex flex-col-reverse xl:flex-row items-center justify-center xl:p-auto py-12 gap-16 xl:gap-32">
             {/* my info */}
             <section className="flex flex-col justify-center max-w-[720px] gap-6">
                 <div className="flex flex-col text-left text-5xl md:text-7xl xl:text-9xl font-semibold font-alata">

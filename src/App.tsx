@@ -1,7 +1,5 @@
-import ArchProject from './components/ArchProject'
 import Banner from './components/Banner'
 import Cover from './components/Cover'
-import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import WebDevProject from './components/WebDevProject'
 
@@ -13,11 +11,8 @@ function App() {
         <NavBar />
 
         <Cover />
-        {/* <Banner /> */}
+        <Banner text='My Project '/>
         {/* <WebDevProject /> */}
-
-        {/* <ArchProject /> */}
-        {/* <Footer /> */}
 
     {/* </div> */}
     </div>
