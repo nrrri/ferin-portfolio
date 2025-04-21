@@ -12,7 +12,7 @@ function App() {
 
         <Cover />
         <Banner text='My Project '/>
-        {/* <WebDevProject /> */}
+        <WebDevProject />
 
     {/* </div> */}
     </div>
