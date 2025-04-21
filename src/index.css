@@ -33,7 +33,7 @@
     font-style: normal;
   }
 
-  #shadow {
+  .styled__shadow {
     background-color: #e8e3dc;
     color: transparent;
     text-shadow: 0px 4px 6px rgba(255,255,255,1);
@@ -42,7 +42,7 @@
             background-clip: text;
   }
 
-  #drop-shadow {
+  .styled__dropshadow {
     box-shadow: -5px -5px 0.4rem white, 4px 4px 0.4rem rgb(0 0 0 / 20%)
   }
 

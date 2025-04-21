@@ -14,10 +14,8 @@ const Banner = ({ text }: { text: string }) => {
 
     return (
         <div ref={containerRef} className="flex items-center justify-center relative h-[110px] bg-gradient-to-r from-secondary200 to-secondary100 ">
-            <span ref={textRef} className="flex text-9xl text-bgday100 leading-none uppercase font-antonio banner space-x-24 text-nowrap" >
+            <span ref={textRef} className="flex text-6xl lg:text-9xl text-bgday100 leading-none uppercase font-antonio banner space-x-24 text-nowrap" >
                 {text.repeat(repeatCount)}
-                {/* <p>my projects</p>
-                <p>my projects</p> */}
             </span>
         </div >
 
