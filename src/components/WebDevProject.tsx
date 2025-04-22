@@ -5,9 +5,9 @@ function WebDevProject() {
     const jobSkill = ['web Developer', 'mobile application Developer', 'ux/ui designer']
     const skillTitle = 'web development projects'
 
-    const checkScreenCondition = (idx: number) => {
-        return idx !== jobSkill.length - 1 && window.innerWidth >= 768
-    }
+    // const checkScreenCondition = (idx: number) => {
+    //     return idx !== jobSkill.length - 1 && window.innerWidth <= 768
+    // }
 
     const skillHeader = () => {
         return (
@@ -22,7 +22,7 @@ function WebDevProject() {
                         return (
                             <div key={idx}>
                                 <p >{job}</p>
-                                {checkScreenCondition(idx) && <p>|</p>}
+                                {/* {checkScreenCondition(idx) && <p>|</p>} */}
                             </div>
                         )
                     })}
