@@ -1,7 +1,7 @@
 import portrait from '../assets/ferin.jpeg'
 
 function Cover() {
-    const careerTitle = ['Software Developer', 'Web Designer', 'Architectural Designer']
+    const careerTitle = ['Full-Stack Developer', 'Software Developer', 'Architectural Design Background']
     const myname = {
         fname: 'Ferin',
         lname: 'Chowarun'
@@ -24,13 +24,20 @@ function Cover() {
                 </div>
 
                 {/* description */}
-                <h4 className="min-w-[300px] px-12 font-alata text-center text-pretty font-light">“Newly graduated from computer science, I'm transitioning from architectural design, blending design proficiency with technological innovation.
+                <h4 className="min-w-[300px] px-12 font-alata text-center text-pretty font-light">“Full-Stack Developer with an architectural design background, building scalable web applications with strong UX, system design, and data visualization focus.
+                    <br />
+                    <br />
+
+                    Focused on long-term product development in real estate and proptech, with an interest in integrating AI to enhance data insights and user experiences.”
+                </h4>
+                {/* <h4 className="min-w-[300px] px-12 font-alata text-center text-pretty font-light">“Newly graduated from computer science, I'm transitioning from architectural design, blending design proficiency with technological innovation.
                     Specializing in user-centric mobile development, web development, and web design,
-                    <br />I'm eager to collaborate with forward-thinking companies, driving seamless and efficient projects that marry creativity with cutting-edge technology.”</h4>
+                    <br />I'm eager to collaborate with forward-thinking companies, driving seamless and efficient projects that marry creativity with cutting-edge technology.”
+                </h4> */}
 
                 {/* job title */}
-                <div className="flex w-auto md:flex-row flex-col md:justify-between justify-center font-alata text-xl items-center gap-6">
-                    {careerTitle.map((title,idx) => {
+                <div className="flex w-auto md:flex-row flex-col md:justify-between justify-center font-alata text-md items-center gap-6">
+                    {careerTitle.map((title, idx) => {
                         return <div key={idx} className={titleBubble}>{title}</div>
                     })}
                 </div>

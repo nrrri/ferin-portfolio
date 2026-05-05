@@ -12,7 +12,6 @@ function App() {
         <Cover />
         <Banner text='My Project '/>
         <WebDevProject />
-
     </div>
   )
 }

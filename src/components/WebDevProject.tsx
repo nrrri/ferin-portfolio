@@ -1,4 +1,4 @@
-import Skills from "./Skills"
+// import Skills from "./Skills"
 import ProjectCard from "./WebDevProject/card/ProjectCards"
 
 function WebDevProject() {
@@ -30,7 +30,7 @@ function WebDevProject() {
         <div className="font-alata flex flex-col items-center justify-center">
             {skillHeader()}
 
-            <Skills />
+            {/* <Skills /> */}
 
             <ProjectCard />
 
